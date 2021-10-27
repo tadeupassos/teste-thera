@@ -1,0 +1,36 @@
+ion-content {
+  --background: #1E5084;
+}
+
+ion-input {
+  --background: #fff;
+  border-radius: 7px;
+  margin-left: 10px;
+  width: 215px;
+  font-size: 15px;
+}
+
+.posicaoImg {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.margin50 {
+  margin-top: 50px;
+}
+
+.btnLogin {
+  background-color: #FCCD2A;
+  border-radius: 7px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.txtLogin {
+  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1E5084;
+}

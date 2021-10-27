@@ -1,0 +1,54 @@
+<div class="marcador">
+  <ion-row>
+    <ion-col class="label" size="6">
+      Data
+    </ion-col>
+    <ion-col class="label" size="6">
+      Hora início
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.data"></ion-input>
+    </ion-col>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.inicio"></ion-input>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="label" size="6">
+      almoço início
+    </ion-col>
+    <ion-col class="label" size="6">
+      almoço fim
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.almocoIni"></ion-input>
+    </ion-col>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.almocoFim"></ion-input>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="label" size="6">
+      hora fim
+    </ion-col>
+    <ion-col class="label" size="6">
+      tempo
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.fim"></ion-input>
+    </ion-col>
+    <ion-col size="6" class="ion-no-padding">
+      <ion-input type="text" readOnly [value]="horario.tempo"></ion-input>
+    </ion-col>
+  </ion-row>
+</div>
+<div class="linha"></div>
+

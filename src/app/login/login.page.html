@@ -1,0 +1,31 @@
+<ion-content>
+  <div class="posicaoImg">
+    <img src="/assets/imgs/logoThera.png">
+  </div>
+
+  <ion-row class="margin50">
+    <ion-col class="flex-center" size="12">
+      <div class="flex-left">
+        <img src="/assets/imgs/icoUser.png">
+        <ion-input [(ngModel)]="usuario" type="text" placeHolder="Usuário"></ion-input>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="flex-center" size="12">
+      <div class="flex-left">
+        <img src="/assets/imgs/icoPass.png">
+        <ion-input [(ngModel)]="senha" type="password" placeHolder="Senha"></ion-input>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="flex-center" size="12">
+      <div (click)="logar()" class="btnLogin">
+        <span class="txtLogin">LOGIN</span>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-content>
